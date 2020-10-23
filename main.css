@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+}
+body{
+	margin: 0;
+	color: #222;
+}
+.container{
+	width: 100%;
+	height: 580px;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+.nav{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.nav a{
+	margin: 10px 5px;
+	color: grey;
+	text-decoration: none;
+}
+.nav a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.nav button{
+	border:none;
+	outline: none;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	margin: 5px 5px;
+}
+.nav button:hover{
+	background-color: silver;
+	border-radius: 50%;
+}
+.nav> .fa{
+	margin: 5px 5px;
+}
+#search-container{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+#search{
+	width: 100%;
+	height: 40px;
+	outline: none;
+	border:1px solid silver;
+	border-radius: 20px;
+	margin: auto;
+}
+#search-icon{
+	position: relative;
+	color: grey;
+	top: 18px;
+	left: 30px;
+}
+#microphone{
+	position: relative;
+	color: grey;
+	top: 18px;
+	left: -30px;
+
+}
+#search-icon:hover{
+	cursor: pointer;
+}
+#microphone{
+	cursor: pointer;
+}
+.logo-container{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+#google-logo{
+	width: 80%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+p{
+	margin: auto;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+#google-logo h1{
+	font-size: 100px;
+	font-family: serif;
+	text-align: center;
+	margin: auto;
+}
+#search-area{	
+	width: 60%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#search-buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 40px;
+	margin: 15px;
+}
+#google-search, #feeling-lucky{
+	margin: 0 8px;
+	border-radius: 7px;
+	outline: none;
+	background-color:white;
+	border: none;
+	color: grey;
+	padding: 10px;
+}
+#google-search:hover{
+	cursor: pointer;
+	background-color: #F2F2F2;
+	border: 1px solid silver;
+}
+#feeling-lucky:hover{
+	cursor: pointer;
+	border: 1px solid silver;
+	background-color: #F2F2F2;
+}
+#footer{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid silver;
+	background-color: #F2F2F2;
+}
+#country{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid silver;
+	color: grey;
+}
+#country h3{
+	margin: 10px 15px;
+}
+#footer-nav{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 40px;
+}
+#right-nav{
+	width: 50%;
+	height: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+#left-nav{
+	width: 50%;
+	height: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+#footer-nav a{
+	margin: 7px 15px;
+	color: grey;
+	text-decoration: none;
+}
+#footer-nav a:hover{
+	text-decoration: underline;
+}

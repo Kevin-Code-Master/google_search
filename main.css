@@ -20,9 +20,10 @@ body{
 	justify-content: flex-end;
 }
 .nav a{
-	margin: 10px 5px;
+	margin: 15px 10px;
 	color: grey;
 	text-decoration: none;
+	font-size: 13px;
 }
 .nav a:hover{
 	text-decoration: underline;
@@ -34,14 +35,11 @@ body{
 	width: 25px;
 	height: 25px;
 	background-color: white;
-	margin: 5px 5px;
+	margin: 10px 5px;
 }
 .nav button:hover{
 	background-color: silver;
 	border-radius: 50%;
-}
-.nav> .fa{
-	margin: 5px 5px;
 }
 #search-container{
 	width: 100%;
@@ -57,6 +55,10 @@ body{
 	border:1px solid silver;
 	border-radius: 20px;
 	margin: auto;
+	box-shadow: 0 1px 10px 2px silver;
+}
+#search:hover{
+	box-shadow: 1px 3px 3px 1px grey;
 }
 #search-icon{
 	position: relative;
